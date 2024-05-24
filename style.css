@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(#FFE609, #998A05);
+    background-attachment: fixed;
+}
+header{
+    width: 100%;
+    background-color: #ffffff;
+    height: 120px;
+}

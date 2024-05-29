@@ -27,14 +27,33 @@ header{
     align-items: center;
 }
 .botao{
-    display: inline-block;
-    height: 55px;
-    width: 55px;
     margin-right: 16px;
-    position: relative;
     margin-top: 38px;
     font-size: 60px;
     border: none;
     background: none;
-    pointer-events: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.botao:hover{
+    transform: scale(1.2);
+}
+.duck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19vh;
+}
+.duck_button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.texto{
+    text-align: center;
+    font-size: 50px;
+    transition: transform 0.2s;
+}
+.duck_button:hover{
+    transform: scale(1.2)
 }

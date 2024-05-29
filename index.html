@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="duck.js"></script>
     <script src="https://kit.fontawesome.com/e542d26a10.js" crossorigin="anonymous"></script>
     <title>Duck-click</title>
 </head>
 <body>
     <header>
-        <div id="container"><img class="logo" src="img/duck logo 1.png"></div>
+        <div id="container"><img class="logo" src="img/duck logo.png"></div>
         <nav>
             <section id="menu">
                 <div class="botao-container">
@@ -21,7 +22,10 @@
     </header>
     <main>
         <section id="duckclick">
-            
+            <div class="duck">
+                <button onclick="conta()" class="duck_button"><img src="img/duck button.png" alt=""></button>
+            </div>
+            <h1 class="texto" id="contador"></h1>
         </section>
     </main>
 </body>

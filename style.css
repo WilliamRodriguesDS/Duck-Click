@@ -52,7 +52,7 @@ header{
 .texto{
     text-align: center;
     font-size: 50px;
-    transition: transform 0.2s;
+    transition: 0.2s;
 }
 .duck_button:hover{
     transform: scale(1.2)

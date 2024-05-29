@@ -20,8 +20,6 @@ header{
     position: absolute;
     top: -2.5%;
     left: -1%;
-    width: auto;
-    height: auto;
 }
 .botao-container{
     display: flex;
